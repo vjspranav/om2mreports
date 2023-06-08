@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        p {
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <h1>The following are the test results for OM2M Testing</h1>
+    <ul>
+        <li>Insertion with Round Robin: <a href="./insertion_rr/index.html">here</a></li>
+        <li>Insertion with Least Connected: <a href="./insertion_le/index.html">here</a></li>
+        <li>Retrieval with Round Robin: <a href="./retrieval_rr/index.html">here</a></li>
+        <li>Retrieval with Least Connected: <a href="./retrieval_le/index.html">here</a></li>
+        <li>Retrieval with Elastic Search: <a href="./retrieval_elastic/index.html">here</a></li>
+    </ul>
+    <p>Note: Elastic search was only run to retrieve the latest data and only for three hours (due to the high throughput).</p>
+</body>
+</html>
