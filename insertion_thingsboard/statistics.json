@@ -1,0 +1,34 @@
+{
+  "create cin" : {
+    "transaction" : "create cin",
+    "sampleCount" : 842024,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 70.39099360588254,
+    "medianResTime" : 44.0,
+    "minResTime" : 5.0,
+    "maxResTime" : 2925.0,
+    "pct1ResTime" : 124.0,
+    "pct2ResTime" : 151.0,
+    "pct3ResTime" : 319.0,
+    "throughput" : 176.9369101307993,
+    "receivedKBytesPerSec" : 63.7594920295556,
+    "sentKBytesPerSec" : 90.88751438359417
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 842024,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 70.39099360588254,
+    "medianResTime" : 44.0,
+    "minResTime" : 5.0,
+    "maxResTime" : 2925.0,
+    "pct1ResTime" : 124.0,
+    "pct2ResTime" : 151.0,
+    "pct3ResTime" : 319.0,
+    "throughput" : 176.9369101307993,
+    "receivedKBytesPerSec" : 63.7594920295556,
+    "sentKBytesPerSec" : 90.88751438359417
+  }
+}
